@@ -1,0 +1,22 @@
+Objective:
+Compare performance of RNNs with tanh units, LSTMs, and GRUs on sequence modeling tasks.
+
+Key Points:
+
+Problem: Traditional RNNs struggle with long-term dependencies due to vanishing gradients.
+
+Solution: Use gated units—LSTM and GRU—that allow better gradient flow.
+
+Experiments:
+
+Datasets: Polyphonic music and raw speech.
+
+Evaluated GRU vs LSTM in terms of training cost, test error, and parameter efficiency.
+
+Findings:
+
+GRUs perform comparably to LSTMs, sometimes better.
+
+GRUs are simpler (fewer parameters), making them computationally cheaper.
+
+Both GRU and LSTM significantly outperform vanilla RNNs with tanh units.
