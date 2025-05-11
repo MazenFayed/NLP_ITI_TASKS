@@ -1,0 +1,24 @@
+Objective:
+Introduce and evaluate different attention mechanisms for NMT.
+
+Key Points:
+
+Models Proposed:
+
+Global Attention: Attends to all source words at each decoding step.
+
+Local Attention: Focuses on a window of source words around a predicted alignment position.
+
+Variants: Includes different scoring functions (dot, general, concat) for alignment.
+
+Experiments:
+
+Benchmarked on WMT’15 English–German and English–French datasets.
+
+Results:
+
+Local attention slightly outperforms global in BLEU scores.
+
+Attention-based models significantly outperform non-attentional models (e.g., by +5 BLEU).
+
+Ensemble models achieve new state-of-the-art BLEU scores.
