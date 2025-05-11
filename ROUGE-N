@@ -1,0 +1,14 @@
+How It Works:
+Measures n-gram overlap between machine-generated and reference summaries.
+
+Commonly used types:
+
+ROUGE-1: Unigram overlap.
+
+ROUGE-2: Bigram overlap.
+
+ROUGE-L: Longest common subsequence.
+
+Metrics Reported: Precision, Recall, F1-Score.
+
+Application: Widely used in summarization benchmarks (e.g., DUC, CNN/DM datasets).
