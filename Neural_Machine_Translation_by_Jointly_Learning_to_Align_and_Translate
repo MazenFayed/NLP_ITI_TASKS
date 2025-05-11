@@ -1,0 +1,20 @@
+Objective:
+Overcome fixed-length encoding limitations in encoder-decoder NMT by introducing an attention mechanism.
+
+Key Points:
+
+Limitation of Basic NMT: Using a fixed-length vector to encode variable-length sentences is ineffective, especially for long sentences.
+
+Proposed Model: Encoder-decoder with attention, where decoder dynamically selects source words (alignment).
+
+Mechanism:
+
+Encoder: Bi-directional RNN.
+
+Attention: Soft alignment via context vector at each decoding step.
+
+Results:
+
+Achieves competitive results with traditional phrase-based translation systems.
+
+Performs better on long sentences compared to vanilla NMT.
